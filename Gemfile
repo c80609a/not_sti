@@ -9,6 +9,8 @@ gem 'dotenv-rails'
 gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.6'
+gem 'slim-rails'
+gem 'sass-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
